@@ -1,0 +1,6 @@
+.idea
+node_modules/
+server/public/vendor/
+*.log
+/server/public/assets/images/
+.DS_Store

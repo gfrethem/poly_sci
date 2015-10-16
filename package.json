@@ -1,0 +1,30 @@
+{
+  "name": "poly_sci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfrethem/poly_sci.git"
+  },
+  "author": "Geoffrey Hofman-Frethem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfrethem/poly_sci/issues"
+  },
+  "homepage": "https://github.com/gfrethem/poly_sci#readme",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-route": "^1.4.7",
+    "express": "^4.13.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.1"
+  }
+}
