@@ -1,20 +1,21 @@
 /**
  * Created by gfrethem on 10/14/15.
  */
+
 var app = angular.module('MegaPrez', ['ngRoute']);
 
-app.config(function($routeProvider, $locationProvider) {
+app.config(function($routeProvider, $locationProvider){
     $routeProvider
-        .when('/', {
-            templateURL: 'views/home.html',
+        .when('/',{
+            templateUrl:'views/home.html',
             controller: 'HomeController'
         })
-        .when('/about', {
-            templateURL: 'views/about.html',
+        .when('/about',{
+            templateUrl:'views/about.html',
             controller: 'AboutController'
         })
         .when('/rank', {
-            templateURL: 'views/rank.html',
+            templateUrl: 'views/rank.html',
             controller: 'RankController'
         });
 
